@@ -1,0 +1,431 @@
+#documento{
+  font-size: 10px;
+}
+
+p {
+    margin: 0 0 0px;
+}
+
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+hr {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+.table-bordered {
+    border: 1px solid #c7c7c7;
+}
+
+dt {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+  margin: 2 0 0px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+  margin: 2 0 0px;
+}
+
+.container {
+    min-width: 992px !important;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -25px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%;
+}
+
+
+.col-auto {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+    float: left;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-11 {
+    width: 91.66666667%;
+}
+
+.col-xs-10 {
+    width: 83.33333333%;
+}
+
+.col-xs-9 {
+    width: 75%;
+}
+
+.col-xs-8 {
+    width: 66.66666667%;
+}
+
+.col-xs-7 {
+    width: 58.33333333%;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.col-xs-5 {
+    width: 41.66666667%;
+}
+
+.col-xs-4 {
+    width: 33.33333333%;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+.col-xs-2 {
+    width: 16.66666667%;
+}
+
+.col-xs-1 {
+    width: 6.33333333%;
+}
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+}
+
+.row:after {
+    clear: both;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding-right: 5px;
+    text-align: left;
+  }
+
+#encabezado{
+    color:#1269A6;
+    font-size: 13px;
+}
+
+#titulos{
+  font-size: 15px;
+}
+
+#encabezado_impuesto_de_importacion{
+    color:#1269A6;
+    padding-left: 90px;
+}
+
+.imagen{
+  width: 270px;
+}
+
+.direccion{
+  font-size:10px; 
+  color:dimgray;
+}
+
+#gastos_compass{
+  font-size: 14px;
+  margin: 2 0 0px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#margenes{
+  margin-left:5px; 
+  margin-right:0px; 
+  margin-bottom:1px;
+}
+
+#division{
+  margin-top:2px;
+  margin-bottom:2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.linea_vertical {
+  border-left: 0.5px solid gray;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 15px;
+}
+
+.medio_transporte{
+  width: 50px;
+}
+
+.tipo_servicio{
+  width: 400px;
+}
+
+#gastos_pagados{
+  color:#1b5e20;
+  font-size: 13px;
+}
+
+#div_datos_generales{
+  margin-right:-29px; 
+  margin-bottom:5px; 
+  border-color:#3498DB;
+}
+
+#div_opciones{
+  width: 100%; 
+  height:14.5%; 
+  margin-right:-29px; 
+  margin-bottom:5px; 
+  border-color:#3498DB;
+}
+
+#servicios_opcionales{
+  color:#c17900;
+  font-size: 13px;
+}
+
+#div_servicios_compass{
+  width: 51%; 
+  height:90%; 
+  margin-bottom:3px; 
+  border-color:#3498DB;
+}
+
+#total_servicios_compass{
+  width:200px; 
+  margin-left:5px; 
+  margin-right:5px; 
+  margin-bottom:3px;
+  position:fixed;
+  bottom: 127px;
+  right: 512.5px;
+}
+
+#total_compass{
+  font-size: 14px;
+  color: #263238;
+  margin: 2 0 0px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#tabla_gastos_cliente{
+  height:48%; 
+  width: 46.2%;
+  top: 37.54em;
+  left: -20px;
+  margin-right:-5px; 
+  border-color:#3498DB;
+  position: fixed;
+}
+
+#total_gastos_cliente{
+  width:200px; 
+  margin-left:5px; 
+  margin-right:5px; 
+  margin-bottom:3px;
+  position:fixed;
+	bottom: 421px;
+  right: 508.5px;
+}
+
+#tabla_servicios_opcionales{
+  height:41%; 
+  width: 46.2%;
+  left: -20px;
+  bottom: 6.8em;
+  border-color:#3498DB;
+  position: fixed;
+}
+
+#total_servicios_opcionales{
+  width:200px; 
+  margin-left:5px; 
+  margin-right:5px; 
+  margin-bottom:3px;
+  position:fixed;
+	bottom: 127px;
+  right: 508.5px;
+}
